@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo in Angular.js</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300italic,400italic,500' rel='stylesheet'
+          type='text/css'>
+    <script src="https://use.fontawesome.com/21be5f2318.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js"
+            type="text/javascript"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.min.js"></script>
+    <script src="todo.js"></script>
+</head>
+<body ng-app="toDoList" ng-controller="toDoListCtrl">
+<br>
+<br>
+<h1><div ng-repeat='task in taskList'>
+
+    <input type='checkbox' ng-model='task.done' />
+
+    <span ng-class='{done: task.done}'>{{task.task}}</span>
+</div></h1>
+<h2><div class='input-form'>
+    <input type='text' ng-model='newTask' />
+    <button ng-click='addTask(newTask)'>Add</button>
+</div></h2>
+<div>
+    <h2><p>Number of tasks: {{taskList.length}}</p>
+        <p>Number of completed tasks: {{count}}</p></h2>
+</div>
+
+</body>
+</html>
