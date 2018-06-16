@@ -1,0 +1,50 @@
+{
+    "courses": [
+        {
+            "description": "Big-Data Programming",
+            "level": "Graduate",
+            "spring": "yes",
+            "summer": "no",
+            "fall": "yes",
+            "degree": "comp sci",
+            "instructor": "Karthik",
+            "prerequisites": "Database, Programming",
+            "credits": 3,
+            "ratings": 5,
+            "links": "ref-link",
+            "availability": "True",
+            "duration": "4 months"
+        },
+        {
+            "description": "Deep learning",
+            "level": "Graduate",
+            "spring": "no",
+            "summer": "no",
+            "fall": "yes",
+            "degree": "comp sci",
+            "instructor": "Rohith",
+            "prerequisites": "python",
+            "credits": 3,
+            "ratings": 4,
+            "links": "ref-link",
+            "availability": "True",
+            "duration": "4 months"
+        },
+        {
+            "description": "Hadoop-spark",
+            "level": "Grad",
+            "spring": "yes",
+            "summer": "no",
+            "fall": "yes",
+            "degree": "intermediate",
+            "instructor": "Sachin",
+            "prerequisites": "-",
+            "credits": 3,
+            "ratings": 4,
+            "links": "ref-link",
+            "availability": "True",
+            "duration": "4 months"
+        }
+
+    ]
+}
