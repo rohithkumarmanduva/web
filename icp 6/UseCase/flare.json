@@ -1,0 +1,92 @@
+{
+  "name": "United States",
+  "parent":"US",
+  "children": [
+    {
+      "name": "University of Missouri System",
+      "parent": "US",
+      "children": [
+        {
+          "name": "University of Missouri",
+          "parent": "University of Missouri System"
+        },
+        {
+          "name": "University of Missouri - Kansas City",
+          "parent": "University of Missouri System"
+        },
+        {
+          "name": "Missouri University of Science and Technology",
+          "parent": "University of Missouri System"
+        },
+        {
+          "name": "University of Missouri–St. Louis",
+          "parent": "University of Missouri System"
+        }
+      ]
+    },
+    {
+      "name": "Rockhurst University",
+      "parent": "US",
+      "children": [
+        {
+          "name": "Branch1",
+          "parent": "Rockhurst University"
+        },
+        {
+          "name": "Branch2",
+          "parent": "Rockhurst University"
+        },
+        {
+          "name": "Branch3",
+          "parent": "Rockhurst University"
+        },
+        {
+          "name": "Branch4",
+          "parent": "Rockhurst University"
+        }
+      ]
+    },
+    {
+      "name": "UCM",
+      "parent": "US",
+      "children": [
+        {
+          "name": "Branch1",
+          "parent": "UCM"
+        },
+        {
+          "name": "Branch2",
+          "parent": "UCM"
+        }
+      ]
+    },
+    {
+      "name": "Kansas State University",
+      "parent": "US",
+      "children": [
+        {
+          "name": "Branch1",
+          "parent": "Kansas State University"
+        },
+        {
+          "name": "Branch2",
+          "parent": "Kansas State University"
+        },
+        {
+          "name": "Branch3",
+          "parent": "Kansas State University"
+        }
+      ]
+    },
+    {
+      "name": "Missouri State University",
+      "parent": "US",
+      "children": [
+        {
+          "name": "Branch1",
+          "parent": "Missouri State University"
+        }
+      ]
+    }
+  ]
+}
